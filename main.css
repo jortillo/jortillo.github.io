@@ -1,9 +1,13 @@
+body{
+  background-color: #36393F !important;
+}
+
 .container{
   font-family: 'Raleway', sans-serif;
 }
 
 #mainNav .nav-link{
-  color: black;
+  color: white;
   margin-top: 10px;
   font-weight: 500;
 }
@@ -23,12 +27,17 @@
 #intro{
   padding-top: 25%;
   height: 100vh;
+  color: white;
 }
 
 #intro-text{
   font-size: 5rem;
   text-align: center;
   font-weight: 200;
+}
+
+#about-text{
+  color: white;
 }
 
 body hr{
@@ -41,12 +50,13 @@ body h2{
   font-weight: 300;
   margin-top: 10px;
   margin-bottom: 30px;
+  color: white;
 }
 
 body h3 a{
   font-size: 2.5rem;
   font-weight: 300;
-  color: black;
+  color: white;
   font-weight: 200;
 }
 
@@ -62,7 +72,7 @@ body h3 a:hover{
 #pfp{
   border: 2px solid #4acaa8;
   margin-left: 25%;
-  padding: 4px 4px 4px 4px;
+  padding: 5px 5px 5px 5px;
   width: auto;
   height: 75%;
 }
@@ -73,4 +83,5 @@ body h3 a:hover{
 
 .end{
   text-align: center;
+  color: white;
 }
