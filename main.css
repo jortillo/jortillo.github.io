@@ -1,0 +1,76 @@
+.container{
+  font-family: 'Raleway', sans-serif;
+}
+
+#mainNav .nav-link{
+  color: black;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+#mainNav .nav-link:hover{
+  color: #4acaa8;
+}
+
+.card-link{
+  color: black;
+}
+
+.card-link:hover{
+  color: #4acaa8;
+}
+
+#intro{
+  padding-top: 25%;
+  height: 100vh;
+}
+
+#intro-text{
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 200;
+}
+
+body hr{
+  border-width: 2px;
+  border-color: #4acaa8;
+}
+
+body h2{
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+body h3 a{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: black;
+  font-weight: 200;
+}
+
+body h3 a:hover{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #4acaa8;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+
+#pfp{
+  border: 2px solid #4acaa8;
+  margin-left: 25%;
+  padding: 4px 4px 4px 4px;
+  width: auto;
+  height: 75%;
+}
+
+.section{
+  margin-bottom: 250px;
+}
+
+.end{
+  text-align: center;
+}

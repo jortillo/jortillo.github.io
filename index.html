@@ -1,7 +1,84 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Placeholder
-</h1>
-</body>    
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jeric Ortillo</title>
+      <link rel="stylesheet" href="main.css">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+      <!-- bootstrap and jquery setup-->
+      <link rel="stylesheet" href="bootstrap/bootstrap.css">
+      <script src="bootstrap/jquery-3.5.1.min.js"></script>
+      <script src="bootstrap/bootstrap.bundle.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <ul id="mainNav"class="nav justify-content-end">
+            <li class="nav-item">
+               <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jortillo"  target="_blank">GitHub</a>
+           </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Resume-JericOrtillo.pdf" target="_blank">Resume</a>
+           </li>
+         </ul>
+         <div id="intro">
+            <h1 id="intro-text">
+               I am Jeric Ortillo
+            </h1>
+         </div>
+         <div data-spy="scroll" data-target="mainNav" data-offset="0">
+           <div>
+            <hr id="about">
+            <h2 id="about-text">About me</h2>
+            <div class="row">
+               <div class="col-md-6">
+                  <p>Hello! I'm Jeric, a new grad from Northern California.</p>
+                  <p>Recently graduating from Sacramento State University with a BS in computer science,
+                     I'm currently looking for a software engineering position with a high interest in front-end & web development.
+                  </p>
+               </div>
+               <div class="col-md-6"><img id="pfp" src="images/pfp.jpg" alt="pfp">
+               </div>
+            </div>
+          </div>
+            <div class="section">
+            <hr id="project">
+            <h2 id="project-text">Projects</h2>
+            <div class="row">
+               <div class="col-sm-3">
+                  <div class="card" style="width: 18rem;">
+                     <img src="/images/datavizProj.JPG" class="card-img-top" alt="Data Visualization Project">
+                     <div class="card-body">
+                        <h5 class="card-title">United States Data Visualization</h5>
+                        <p class="card-text">A data visualization of the United States population using d3.js.</p>
+                        <a href="https://github.com/jortillo/csc196v_datavisualization_project" target="_blank" class="card-link">View repo</a>
+                        <a href="https://jortillo.github.io/csc196v_datavisualization_project"  target="_blank" class="card-link">View live demo</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+            <div class="section">
+            <hr id="contact">
+            <h2>Contact me</h2>
+            <h3><a href="mailto:jericortillo@gmail.com" class="mail-link">jericortillo@gmail.com</a></h3>
+            <h3><a href="https://www.linkedin.com/in/jericortillo/"  target="_blank">LinkedIn/jericortillo</a></h3>
+          </div>
+         </div>
+         <div class="end">
+           <p>Designed & Developed by Jeric Ortillo</p>
+         </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+   </body>
 </html>
