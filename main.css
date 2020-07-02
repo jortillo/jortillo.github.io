@@ -25,14 +25,15 @@ body{
 }
 
 #intro{
-  padding-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   color: white;
 }
 
 #intro-text{
   font-size: 5rem;
-  text-align: center;
   font-weight: 200;
 }
 
